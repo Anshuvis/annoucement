@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        .anshu{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head> `
+<body>
+    <div class="container">
+        <h1 class="des">RECRUICTMENT FORM</h1>
+        <p style="margin: 5px">Name :* <input type="text" name="name"  required placeholder="Type your name" ></p>
+        <p>Email: <input type="email" name="email" id="email" required placeholder="Type your college-Id" ></p>
+        <h2>Department</h2>
+        <p>Branch: 
+            <select name="card_type" id="card_type">
+            <option value="">--Select your branch--</option>
+            <option value="visa">CSE</option>
+            <option value="Rupay">ECE</option>
+            <option value="Mastercard">EEE</option>
+            <option value="visa">CE</option>
+            <option value="Rupay">ME</option>
+            <option value="Mastercard">Msc</option>
+        </select>
+        </p>
+        <h5>Submit your CV :</h5>
+        <label for="myfile">Select a file:</label> 
+<input type="file" id="myfile" name="myfile">
+        <h6>why do you want to join the club ?</h6>
+        <p><textarea name="address" id="adderss" cols="50" rows="10"></textarea>
+        </p>
+        <form action="home_hackthon.html">
+            <input type="submit" value="SUBMIT" />
+        </form>
+    </div>
+</body>
+</html>

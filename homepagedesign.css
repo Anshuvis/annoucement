@@ -1,0 +1,32 @@
+.navbar-brand{
+    /* text-shadow: blue; */
+    text-align: center;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-link{
+    color: rgb(0, 60, 255);
+}
+.nav-item{
+    color: red;
+}
+img{
+    margin: 10px;
+    border-radius: 5px;
+}
+.row{
+    margin: 10px;
+}
+.container-fluid{
+    background-color: rgb(170, 170, 234);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.anouncement{
+    text-align: center;
+    font-size: x-large;
+    font-family:cursive;
+}

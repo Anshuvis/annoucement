@@ -1,0 +1,117 @@
+* {box-sizing: border-box}
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr{
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+button:hover {
+  opacity:1;
+}
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+.container {
+  padding: 16px;
+  background-color: rgb(216, 223, 225);
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h1{
+    text-align: center;
+}
+.front{
+    background-image: url("download.jpg");
+}
+.des{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: coral;
+
+}
+.back{
+  font-family: cursive;
+  font-size: xx-large;
+  text-align: center;
+  align-items:flex-end;
+}
+.column{
+  float: left;
+  width: 40.33%;
+  padding: 10px;
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+h1{
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: xx-large;
+  text-shadow: 4px 4px 4px #aaa;
+}
+.logo{
+  text-align: center;
+  font-family:'Tangerine', serif; 
+  font-style: italic;
+  font-weight: bolder;
+  font-size: xx-large;
+  text-shadow: 4px 4px 4px #aaa;
+}
+.bot{
+  text-align: center;
+  font-family:'Tangerine', serif; 
+  font-style: italic;
+  font-weight: bolder;
+  font-size: xx-large;
+  text-shadow: 4px 4px 4px #aaa;
+
+}
+input[type="submit"]:hover{
+  background-color: blueviolet;
+  margin: 3px;
+}
+input[type="submit"]{
+  background-color: skyblue;
+  border: chocolate;
+  border-radius: 5px;
+  padding: 10px 20px;
+  /* text-align: center; */
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
